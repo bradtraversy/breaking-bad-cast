@@ -25,11 +25,15 @@ const App = () => {
 
     fetchItems()
   }, [query])
-
+  
+  const queryFunction = (q) =>{
+    setQuery(q)
+  }
+  
   return (
     <div className='container'>
       <Header />
-      <Search getQuery={(q) => setQuery(q)} />
+      <Search getQuery={queryFunction} />
       <CharacterGrid isLoading={isLoading} items={items} />
     </div>
   )
