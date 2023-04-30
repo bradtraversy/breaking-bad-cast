@@ -1,22 +1,27 @@
-# Breaking Bad Cast
+# Breaking Bad Cast :tv:
 
-React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show 
+This is a React project that uses the [Breaking Bad API](https://breakingbadapi.com/documentation) to display and filter characters from the popular TV show, Breaking Bad.
 
-Featured in this [tutorial on YouTube](https://www.youtube.com/watch?v=YaioUnMw0mo)
+> :movie_camera: Check out this [tutorial on YouTube](https://www.youtube.com/watch?v=YaioUnMw0mo) for a step-by-step guide on building the project.
 
-# Usage
+## :hammer_and_wrench: Usage
 
-```
-# Install dependencies
+Follow the steps below to get started with the project:
+
+### 1. Install Dependencies
+
+```bash
 npm install
 ```
 
-```
-# Run app
+### 2. Run the App
+
+```bash
 npm start
 ```
 
+### 3. Build the App for production
+
 ```
-# Build app
 npm run build
 ```
